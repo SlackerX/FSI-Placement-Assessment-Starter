@@ -35,7 +35,7 @@ credit.textContent = `Created by ${yourName}`
 gbPlusBtn.addEventListener('click', function() {
     gb = gb + 1
     gbTotal.textContent = gb
-    totalCookies.textContent = gb+cc+sugar
+    totalCookies.textContent = gb+cc+sugar //add totals
 
 })
 
@@ -43,7 +43,7 @@ gbPlusBtn.addEventListener('click', function() {
 gbMinusBtn.addEventListener('click', function() {
     if(gb > 0) {
     gb = gb - 1
-    totalCookies.textContent = gb+cc+sugar
+    totalCookies.textContent = gb+cc+sugar //subtract totals
 }
     gbTotal.textContent = gb
 
@@ -57,7 +57,7 @@ gbMinusBtn.addEventListener('click', function() {
 ccPlusBtn.addEventListener('click', function() {
     cc = cc + 1
     ccTotal.textContent = cc
-    totalCookies.textContent = gb+cc+sugar
+    totalCookies.textContent = gb+cc+sugar //add totals
 
     })
     
@@ -65,7 +65,7 @@ ccPlusBtn.addEventListener('click', function() {
     ccMinusBtn.addEventListener('click', function() {
         if(cc > 0) {
             cc = cc - 1
-            totalCookies.textContent = gb+cc+sugar
+            totalCookies.textContent = gb+cc+sugar //subtract totals
         }
             ccTotal.textContent = cc
 
@@ -79,7 +79,7 @@ ccPlusBtn.addEventListener('click', function() {
 sugarPlusBtn.addEventListener('click', function() {
     sugar = sugar + 1
     sugarTotal.textContent = sugar
-    totalCookies.textContent = gb+cc+sugar
+    totalCookies.textContent = gb+cc+sugar //add totals
 
     })
     
@@ -87,7 +87,7 @@ sugarPlusBtn.addEventListener('click', function() {
     sugarMinusBtn.addEventListener('click', function() {
         if(sugar > 0) {
             sugar = sugar - 1
-            totalCookies.textContent = gb+cc+sugar
+            totalCookies.textContent = gb+cc+sugar //subtract totals
         }
         sugarTotal.textContent = sugar
 
